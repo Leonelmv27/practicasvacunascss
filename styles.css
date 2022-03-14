@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:white;
+}
+
+#main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+#menu_header{
+    
+    display: flex;
+    
+    /*width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 15px;*/
+ } 
+
+#menu_header_1{
+   display: flex; 
+   height: 20vh;
+    width: 50%;
+   
+}   
+.tit_de{
+    background:white;
+    
+
+    font-size: 1.2em;
+    color: #000066;   
+    /*text-align: right;*/
+    position: absolute;
+    right: 700px;
+    margin-top: 50px;
+    /*margin-bottom: 10px;*/
+   
+
+}
+.tit_iz{background:white;
+  /*  height: 30vh; 
+    width: 50%;*/
+    margin-top: 40px;
+    
+    position: absolute;
+    left: 20px;
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+
+
+
+}
+
+#menu_header_2{
+   
+    background: rgb(236,244,244);
+    background: linear-gradient(90deg, rgba(236,244,244,1) 0%, rgba(0,200,241,0.8323704481792717) 2%);
+    height: 20vh;
+    width: 50%;
+    font-size: 1.2em;
+    color: #000066;
+    display: flex;
+}
+
+#menu_header_2 span{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#modelo{
+   width: 150px;    
+   height: 20px;
+}
+.blue_button{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 1em;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(55, 15, 165, 0.418);
+}
+
+.blue_button:hover{
+    box-shadow: 2px 2px 2px 1px rgba(55, 15, 165, 0.418);
+}
+#lista{
+    list-style-type: none;
+    display: flex;
+    font-size:20px ;
+    width: 50%;
+    height: 20vh;
+    color: #000066;  
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+.protecion{
+    flex: 1 1 auto;
+}
+.selecion{
+    flex:1 1 auto;
+}
+
+
+
+
+
+#div_info{
+    font-size: 1.2em;
+    width: 50%;
+    background-color: white;
+    height: 30px;
+    z-index: 100px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    bottom: 10px;
+    /*margin-top: 20px;*/
+   /* justify-content: space-between;
+    padding: 50px 15px; */  
+}
+.segunda_s{ 
+    color: #000066;
+    padding: 1em;
+    border-radius: .5%;
+    box-shadow: 2px 2px 2px 1px rgba(55, 15, 165, 0.418);
+    justify-content: space-between;
+    padding: 50px 15px; 
+}
+
+
+#div_info_float{
+    background-color: brown;
+    z-index: 90;
+    position: absolute;
+    left:10px;
+    top:15px;
+    opacity:0.9;
+    width: 600px;
+}
+
+.iz{
+    background:white;
+    height: 100vh; 
+    width: 50%;  
+}
+#pe_virus{
+    font-size: 100px;
+    color: #000066;
+    text-align: center;
+    
+}
+.subtexto{
+    color: #000066;
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.de{
+    background: url(images2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+#pantalla-dividida2{
+    display: flex;   
+}
+
+.de4{
+    background:white;
+    height: 100vh; 
+    width: 50%;  
+
+     
+}
+.titulo_for{
+    font-size: 60px;
+    text-align: center;
+}
+#texto_4{
+    font-size: 20px;
+}
+.texto_t{
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+
+
+.iz4{
+    background:white;
+    height: 100vh; 
+    width: 50%;  
+    background: url(images.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+#pantalla-dividida4{
+    display: flex;    
+}
+.de5{
+    background:white;
+    height: 100vh; 
+    width: 50%;  
+    background: url(images3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cuadritos{
+    width: 100%;
+    background-color:white;
+    padding: 1em;
+    overflow: hidden;
+}
+.rec1{
+    margin: 1em;
+    padding: 1em;
+    width: 200px;
+    height:200px;
+    background:rgb(160, 141, 141) ;
+    float: left;
+}
+.iz5{
+    background:white;
+    height: 100vh; 
+    width: 50%;  
+
+}
+
+#pantalla-dividida5{
+    display: flex;    
+   
+}
+
